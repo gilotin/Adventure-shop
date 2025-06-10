@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 html {
-    font-size: 16px;
+    font-size: clamp(11px, 11px + .6vw, 18px);
     line-height: 1.5;
-    font-family: var(--font-eb-garamond)
+    font-family: var(--font-eb-garamond);
+
 }
 
 
@@ -39,6 +40,11 @@ h6 {
 ul,
 ol {
     list-style: inside;
+
+    ul,
+    ol {
+        padding-bottom: 0;
+    }
 }
 
 h1,
@@ -60,4 +66,9 @@ code {
     /* margin-top: 1.5rem; */
     margin-bottom: 1.5rem;
     padding-left: 1.5rem;
+}
+
+hr {
+    border: 1ox solid #333;
+    margin-bottom: 1.5rem;
 }
