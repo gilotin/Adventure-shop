@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: var(--font-eb-garamond)
+}
+
+
+
+/* HEADERS */
+
+h1 {
+    font-size: 2.75rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1.15rem;
+}
+
+
+
+ul,
+ol {
+    list-style: inside;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding-left: 1.5rem;
+    margin-bottom: 0.5em;
+}
+
+p,
+ul,
+ol,
+table,
+blockquote,
+code {
+    /* margin-top: 1.5rem; */
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
