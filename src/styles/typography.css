@@ -8,9 +8,6 @@ html {
 }
 
 
-
-/* HEADERS */
-
 h1 {
     font-size: 2.75rem;
 }
@@ -71,4 +68,8 @@ code {
 hr {
     border: 1ox solid #333;
     margin-bottom: 1.5rem;
+}
+
+body {
+    padding: 2rem;
 }
