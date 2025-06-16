@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "tag": "weapon",
+        "name": "Crude Sword",
+        "level": 1,
+        "primaryStat": 1,
+        "description": "A simple crude sword used for most basic things."
+    },
+    {
+        "id": "2",
+        "tag": "shield",
+        "name": "Crude Shield",
+        "level": 1,
+        "primaryStat": 1,
+        "description": "A simple crude shield used for everyday protection."
+    }
+]

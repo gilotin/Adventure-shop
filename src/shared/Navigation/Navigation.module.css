@@ -1,0 +1,23 @@
+/* Currently this CSS is just a playground */
+
+
+.container {
+
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(243, 238, 238);
+    width: 70%;
+    justify-content: space-between;
+
+}
+
+.container>div {
+    display: flex;
+    gap: 2rem
+}
+
+.bazaar {
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+    color: darkolivegreen;
+}

@@ -1,0 +1,7 @@
+/* Currently this CSS is just a playground */
+
+.header {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
