@@ -1,3 +1,5 @@
+// © 2025 Nikolay Toshev – See LICENSE.md for usage and restrictions
+
 import { NavLink } from "react-router-dom";
 import styles from "./Navigation.module.css";
 
@@ -8,7 +10,7 @@ export function Navigation() {
             <nav className={styles.container}>
                 {user ? (
                     <div>
-                        <div>
+                        <div className={styles.main_nav}>
                             <NavLink className={styles.bazaar} to="/">
                                 Bazaar
                             </NavLink>

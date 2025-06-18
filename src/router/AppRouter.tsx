@@ -1,3 +1,5 @@
+// © 2025 Nikolay Toshev – See LICENSE.md for usage and restrictions
+
 import { Route, Routes } from "react-router-dom";
 import { MainLayout } from "../layouts/MainLayout/MainLayout";
 import { Bazaar } from "../features/Bazaar/Bazaar";

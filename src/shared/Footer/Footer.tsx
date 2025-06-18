@@ -1,3 +1,5 @@
+// © 2025 Nikolay Toshev – See LICENSE.md for usage and restrictions
+
 import styles from "./Footer.module.css";
 
 export function Footer() {

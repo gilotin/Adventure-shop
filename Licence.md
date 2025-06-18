@@ -1,7 +1,7 @@
 Fantasy Portfolio Project License (Custom License)
-Copyright © 2025 [Your Name]
+Copyright © 2025 Nikolay Toshev
 
-This project is a personal portfolio and educational project. It includes custom source code, visual assets, and experimental game/shop UI elements, designed and developed by [Your Name].
+This project is a personal portfolio and educational project. It includes custom source code, visual assets, and experimental game/shop UI elements, designed and developed by Nikolay Toshev.
 
 ✔ You are allowed to:
 View and explore the code and design for educational and inspirational purposes.

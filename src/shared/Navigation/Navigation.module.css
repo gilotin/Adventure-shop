@@ -1,18 +1,22 @@
 /* Currently this CSS is just a playground */
 
-
+/* NEED fixing dont like it  */
 .container {
 
     display: flex;
     gap: 1rem;
-    width: 70%;
-    justify-content: space-between;
 
 }
 
 .container>div {
     display: flex;
-    gap: 2rem
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.main_nav {
+    display: flex;
+    gap: 1rem;
 }
 
 .bazaar {
