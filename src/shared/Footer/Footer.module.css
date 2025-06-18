@@ -1,0 +1,11 @@
+/* Currently this CSS is just a playground */
+
+.footer {
+    /* Lets leave it static for now */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(189, 184, 184);
+    padding: 1rem;
+}

@@ -1,0 +1,11 @@
+/* Currently this CSS is just a playground */
+
+.header {
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    background-color: rgb(226, 243, 199);
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}

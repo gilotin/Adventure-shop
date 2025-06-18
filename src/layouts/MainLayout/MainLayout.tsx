@@ -1,22 +1,16 @@
 import { Outlet } from "react-router-dom";
-import { Navigation } from "../../shared/Navigation/Navigation";
+import { Header } from "../../shared/Header/Header";
+import { Footer } from "../../shared/Footer/Footer";
 import styles from "./MainLayout.module.css";
 
 export function MainLayout() {
     return (
         <>
-            <header className={styles.header}>
-                <div className="logo">
-                    <p>LOGO</p>
-                </div>
-                <Navigation />
-            </header>
-            <main className="main">
+            <Header />
+            <main className={styles.main}>
                 <Outlet />
             </main>
-            <footer className="footer">
-                <p>Adventure shop created by Nikolay Toshev all rights reserved.</p>
-            </footer>
+            <Footer />
         </>
     );
 }

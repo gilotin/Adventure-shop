@@ -1,7 +1,10 @@
 /* Currently this CSS is just a playground */
 
-.header {
+.main {
+    background-color: mintcream;
+    height: 100rem;
+    margin-top: 5rem;
     display: flex;
-    gap: 1rem;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
